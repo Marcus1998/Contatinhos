@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+	background: url("../img/conts.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+header#cabeca{
+	font-family: 'Nunito', sans-serif;
+	margin-left: 10px;
+}
+
+/* Login */
+
+div#loginDiv{
+	position: absolute;
+	margin-left: 550px;
+	top: 30%;
+}
+
+div#loginDiv fieldset{
+	border: none;
+	background-color: rgba(0,128,128,0.8);
+	border-radius: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+div#loginDiv fieldset h2, p{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+div#loginDiv fieldset p{
+	text-align: right;
+}
+
+div#loginDiv fieldset #botao{
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	left: 42%;
+	border: none;
+	border-radius: 2px;
+}
+
+/* Cadastro */
+
+div#cadastro{
+	position: absolute;
+	margin-left: 450px;
+	top: 25%;
+}
+
+div#cadastro fieldset{
+	border: none;
+	background-color: rgba(0,128,128,0.8);
+	border-radius: 5px;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+div#cadastro fieldset h2, p{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+div#cadastro fieldset p{
+	text-align: right;
+}
+
+div#cadastro fieldset p#obs{
+	text-align: center;
+}
+
+div#cadastro fieldset #botao{
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	left: 38%;
+	border: none;
+	border-radius: 2px;
+}
